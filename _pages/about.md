@@ -2,33 +2,59 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # publications are included in the page body below, with our own heading
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # news is included in the page body below (limit/scrollable still apply)
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+B.Sc. Mechanical Engineering, RWTH Aachen (2026). Currently boosting shareholder value at [Papaia Innovation](https://papaia.ch).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my bachelor's I did research on learning-based control and robot learning at the Max Planck Institute for Intelligent Systems,
+ETH Zürich and TU Dresden. In general, I'm interested in intelligence in physical systems and the many forms it can take.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of work I like being outdoors, hiking or biking somewhere. On longer trips that usually involves freezing in a tent and promising never to
+do that to myself again.
+
+<h2>
+  <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+</h2>
+
+{% include news.liquid limit=true %}
+
+<h2>
+  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+</h2>
+
+{% include selected_papers.liquid %}
+
+<h2>
+  <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
+</h2>
+
+<div class="projects">
+  <div class="row row-cols-1 row-cols-md-3">
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>

@@ -1,189 +1,125 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: RWTH Aachen University
+        location: Aachen, Germany
+        area: Mechanical Engineering
+        studyType: B.Sc.
+        end_date: 2026
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Top ~1.5% of students, GPA 1.3 (with distinction)."
+          - "Highest grade for the external thesis \"Swing-up of an inverted pendulum using dynamic electromagnetic navigation\", conducted at the Max Planck Institute for Intelligent Systems and the Multi-Scale Robotics Lab, ETH Zürich."
+          - "Semester projects on applying Graph Neural Networks to predict molecular and mixture properties."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Papaia Innovation
+        position: Development Engineer
+        url: https://papaia.ch
+        start_date: 2026-06
+
+      - company: TU Dresden
+        position: Research Assistant
+        location: Dresden, Germany
+        start_date: 2025-12
+        end_date: 2026-03
         highlights:
-          - Relativity
-          - Description 2.
+          - "Implemented imitation learning control for a Franka Emika Panda robot."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Max Planck Institute for Intelligent Systems
+        position: Research Assistant
+        location: Tübingen, Germany
+        start_date: 2025-05
+        end_date: 2025-11
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Implemented learning control methods for high-speed, precise trajectory tracking with electromagnetic navigation systems, in joint work with the Multi-Scale Robotics Lab, ETH Zürich."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Aachen Data Science Club
+        position: Executive Board Member
+        location: Aachen, Germany
+        start_date: 2025-04
+        end_date: 2025-10
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Directed internal organisational restructuring, data science educational events and relationships with partners such as EWOR."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Max Planck Institute for Intelligent Systems
+        position: Intern
+        location: Tübingen, Germany
+        start_date: 2024-10
+        end_date: 2025-04
+        highlights:
+          - "Developed and ran the [Machine Learning with Bricks](https://learning-and-dynamics.github.io/ml-with-bricks/) course for teenagers, with a custom web platform and hands-on experiments."
+          - "Published a [video course](https://youtube.com/playlist?list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J) and open-sourced the platform for in-browser LEGO BLE interaction."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: aixsolution e.V.
+        position: Student Management Consultant
+        location: Aachen, Germany
+        start_date: 2023-11
+        end_date: 2024-07
+        highlights:
+          - "Executed a market research project for an external client."
+          - "Optimised the club's internal workflows by developing an automated engagement-point system and a custom IT-ticket system."
+
+      - company: RWTH Aachen University
+        position: Student Assistant
+        location: Aachen, Germany
+        start_date: 2023-03
+        end_date: 2023-10
+        highlights:
+          - "Supported 20+ students in \"Computer Science in Mechanical Engineering\" during office hours."
+          - "Proofread exercise problem statements and exams."
+
+      - company: Freelance (Upwork)
+        position: Web Developer
+        location: Remote
+        start_date: 2021-12
+        end_date: 2023-03
+        highlights:
+          - "Developed 8+ web products, working on both frontend and backend."
+          - "Led a team of 2 developing a mobile application."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Learning Dynamic Swing-Up of an Inverted Pendulum using Remote Magnetic Actuation
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Viacheslav Sydora
+          - Jasan Zughaibi
+          - Denis von Arx
+          - Quentin Boehler
+          - Michael Muehlebach
+        publisher: "Shared first author. Preprint on arXiv."
+        releaseDate: 2026-06
+        url: https://arxiv.org/abs/2606.13915
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Teaching Machine Learning Fundamentals with LEGO Robotics
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Viacheslav Sydora
+          - Guner Dilsad Er
+          - Michael Muehlebach
+        publisher: "First author. Accepted at Robotics in Education (RiE 2026), Springer Lecture Notes in Networks and Systems."
+        releaseDate: 2026-04
+        url: https://arxiv.org/abs/2601.19376
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Volunteering:
+      - bullet: "**BeBuddy Mentoring Programme** (Oct 2023 – Sep 2024). Assisted international students with questions about everyday life and studying at the beginning of their stay."
+      - bullet: "**Blau-Gelbes Kreuz e.V.** (Mar 2022). Developed a website that helped 20 families fleeing the war in Ukraine find temporary accommodation in the EU."
+
+    Scholarships and Awards:
+      - bullet: "DAAD Scholarship for the Bachelor's degree at RWTH Aachen"
+      - bullet: "Scholarship holder of the Studienstiftung des deutschen Volkes (German Academic Scholarship Foundation)"
+      - bullet: "Dean's List at RWTH Aachen (2021/22, 2022/23, 2023/24)"
+      - bullet: "Honourable mention for a project at the tum.ai Makeathon"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Robotics & Simulation
+        keywords: ["ROS", "ROS 2 (learning)", "SolidWorks", "NX", "CATIA V5", "Dymola", "Ansys", "Modelica"]
+      - name: Programming
+        keywords: ["Python", "C++ (learning)", "JavaScript", "SQL", "MATLAB", "Git", "Docker", "Linux"]
 
     Languages:
       - name: German
-        summary: "Native speaker"
-
+        summary: C1
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: C1
+      - name: Ukrainian
+        summary: Native
+      - name: Russian
+        summary: Native
